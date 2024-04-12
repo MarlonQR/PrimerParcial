@@ -1,0 +1,73 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+.contain{
+    display: block;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(230, 76, 185, 1) 1%, rgba(90, 199, 97, 1) 86%);
+}
+
+.contenedor {
+    margin-bottom: 100%;    
+    display: flex;  
+}
+
+.contenido {
+    width: 30%;
+    height: 30%;
+    background-color: #fff;
+    margin-top: 250px;
+    border-radius: 6px;
+    padding: 45px 30px 60px 30px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 250px;
+
+
+}
+
+.contenido h1 {
+    margin: 20px;
+}
+
+.contenido input {
+    border-color: black;
+    background-color: black;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+
+}
+.contenido input:hover{
+    box-shadow: 0 0px 10px rgb(17,29,48);
+    color: #fff;
+    background: rgb(2, 0, 36);
+    
+    transition: .5s;
+
+}
+
+.contenido:hover{
+    box-shadow: 0 0px 10px rgb(17,29,48);
+    color: #fff;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(230, 76, 185, 1) 1%, rgba(90, 199, 97, 1) 86%);
+    transition: .5s;
+    
+    
+}
